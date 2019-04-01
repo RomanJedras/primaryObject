@@ -45,7 +45,7 @@ Button.prototype = {
         });
         document.body.appendChild(this.element);
     }
-}
+};
 
 const btn1 = new Button('Hello!');
 btn1.create();
